@@ -1,0 +1,24 @@
+{
+	"name": "collab-game",
+	"version": "1.0.0",
+	"description": "collab",
+	"main": "root/index.html",
+	"scripts": {
+		"compile": "tsc ; npx prettier -w . ;",
+		"format": "npx prettier -w . ;",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shadowleafy/collab-game.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/shadowleafy/collab-game/issues"
+	},
+	"homepage": "https://github.com/shadowleafy/collab-game#readme",
+	"devDependencies": {
+		"prettier": "^2.8.3"
+	}
+}

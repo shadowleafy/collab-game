@@ -1,0 +1,13 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"checkJs": true,
+		"lib": ["DOM", "ESNext"],
+		"outDir": "./root/js",
+		"rootDir": "./src",
+		"target": "ESNext"
+	},
+	"exclude": ["./root/**/*"],
+	"include": ["./src/**/*"]
+}
