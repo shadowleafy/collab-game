@@ -1,3 +1,5 @@
 # collab-game
 
-collab
+## Contributions
+
+See `CONTRIBUTING.md`.

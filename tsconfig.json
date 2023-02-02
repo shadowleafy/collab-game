@@ -3,11 +3,13 @@
 	"compilerOptions": {
 		"alwaysStrict": true,
 		"checkJs": true,
+		"jsx": "react-native",
 		"lib": ["DOM", "ESNext"],
+		"moduleResolution": "nodenext",
 		"outDir": "./root/js",
 		"rootDir": "./src",
 		"target": "ESNext"
 	},
-	"exclude": ["./root/**/*"],
+	"exclude": ["./root/**/*", "./node_modules/**/*"],
 	"include": ["./src/**/*"]
 }
