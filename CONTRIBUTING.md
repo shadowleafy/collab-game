@@ -24,7 +24,7 @@ $ npm i
 
 Setup is complete.
 
-## Before committing to or merging with the `gitmaster` branch
+## Before committing to or merging with the `main` branch
 
 - Check your code to ensure functionality
 - Compile your code (if you modified TypeScript files) using `npm run compile`
