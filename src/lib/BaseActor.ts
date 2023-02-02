@@ -1,10 +1,12 @@
 'use strict';
-import Vec from './Vec';
+import Level from './Level.js';
+import Vec from './Vec.js';
 
-/** Class representing an actor */
-export class Actor {
+/** Class representing a barebones actor */
+export class BaseActor {
 	dom: Element;
 	location: Vec;
+	level: Level;
 	/**
 	 * Create an actor
 	 * @param {Element} dom - The DOM node representing the actor
@@ -14,6 +16,9 @@ export class Actor {
 		this.dom = dom;
 		this.location = location;
 	}
+	async update() {
+		// todo: Do something to move this.dom element
+	}
 }
 
-export default Actor;
+export default BaseActor;
