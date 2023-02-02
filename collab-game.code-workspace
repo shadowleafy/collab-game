@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"aaron-bond.better-comments",
+			"DavidAnson.vscode-markdownlint",
+			"ecmel.vscode-html-css",
+			"esbenp.prettier-vscode",
+			"geyao.html-snippets",
+			"GitHub.vscode-pull-request-github",
+			"mhutchie.git-graph",
+			"richie5um2.vscode-sort-json",
+			"samundrak.esdoc-mdn",
+			"xabikos.JavaScriptSnippets",
+			"yatki.vscode-surround"
+		]
+	}
+}
