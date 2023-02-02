@@ -1,5 +1,5 @@
 'use strict';
-/** Class representing a point on a grid */
+/** Class representing a point on a grid, counting from the top left */
 export class Vec {
 	x;
 	y;
@@ -17,7 +17,7 @@ export class Vec {
 	 * @param {number} distance - The distance to move by
 	 */
 	up(distance) {
-		this.y += distance;
+		this.y -= distance;
 		return this;
 	}
 	/**
@@ -25,7 +25,7 @@ export class Vec {
 	 * @param {number} distance - The distance to move by
 	 */
 	down(distance) {
-		this.y -= distance;
+		this.y += distance;
 		return this;
 	}
 	/**

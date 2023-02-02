@@ -15,7 +15,7 @@ export class BaseActor {
 		this.location = location;
 	}
 	async update() {
-		// Do something to move this.dom element
+		// todo: Do something to move this.dom element
 	}
 }
 export default BaseActor;
