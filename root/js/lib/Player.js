@@ -1,7 +1,7 @@
 'use strict';
-import Actor from './Actor';
+import BaseActor from './BaseActor.js';
 /** Class representing a player */
-export class Player extends Actor {
+export class Player extends BaseActor {
 	/**
 	 * Create a player
 	 * @param {Element} dom - The DOM node representing the player
