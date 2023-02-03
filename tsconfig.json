@@ -9,7 +9,10 @@
 		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,
 		"importsNotUsedAsValues": "preserve",
-		"lib": ["DOM", "ESNext"],
+		"lib": [
+			"DOM",
+			"ESNext"
+		],
 		"module": "ESNext",
 		"moduleResolution": "nodenext",
 		"newLine": "lf",
@@ -17,7 +20,7 @@
 		"noImplicitReturns": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"outDir": "./root/js",
+		"outDir": "docs/js",
 		"preserveConstEnums": true,
 		"removeComments": false,
 		"resolveJsonModule": false,
@@ -28,6 +31,11 @@
 		"useDefineForClassFields": true,
 		"useUnknownInCatchVariables": true
 	},
-	"exclude": ["./root/**/*", "./node_modules/**/*"],
-	"include": ["./src/**/*"]
+	"exclude": [
+		"docs/**/*",
+		"./node_modules/**/*"
+	],
+	"include": [
+		"./src/**/*"
+	]
 }
