@@ -9,10 +9,7 @@
 		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,
 		"importsNotUsedAsValues": "preserve",
-		"lib": [
-			"DOM",
-			"ESNext"
-		],
+		"lib": ["DOM", "ESNext"],
 		"module": "ESNext",
 		"moduleResolution": "nodenext",
 		"newLine": "lf",
@@ -31,11 +28,6 @@
 		"useDefineForClassFields": true,
 		"useUnknownInCatchVariables": true
 	},
-	"exclude": [
-		"./root/**/*",
-		"./node_modules/**/*"
-	],
-	"include": [
-		"./src/**/*"
-	]
+	"exclude": ["./root/**/*", "./node_modules/**/*"],
+	"include": ["./src/**/*"]
 }

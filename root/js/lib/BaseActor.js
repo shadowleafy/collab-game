@@ -1,4 +1,5 @@
 'use strict';
+import './Level.js';
 import Vec from './Vec.js';
 /** Class representing a barebones actor */
 export class BaseActor {

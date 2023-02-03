@@ -1,5 +1,6 @@
 'use strict';
 import BaseActor from './BaseActor.js';
+import './Vec.js';
 /** Class representing a player */
 export class Player extends BaseActor {
 	/**

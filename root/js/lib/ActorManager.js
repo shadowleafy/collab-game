@@ -1,4 +1,5 @@
 'use strict';
+import './BaseActor.js';
 import { Collection } from '@discordjs/collection';
 /** Class to manage BaseActors */
 export class ActorManager extends Collection {
