@@ -28,8 +28,6 @@
 		"sourceMap": false,
 		"strict": true,
 		"target": "ESNext",
-		"useDefineForClassFields": true,
-		"useUnknownInCatchVariables": true
 	},
 	"exclude": [
 		"docs/**/*",
