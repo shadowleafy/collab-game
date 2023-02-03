@@ -25,7 +25,6 @@
 		"removeComments": false,
 		"resolveJsonModule": false,
 		"rootDir": "./src",
-		"sourceMap": false,
 		"strict": true,
 		"target": "ESNext",
 	},
