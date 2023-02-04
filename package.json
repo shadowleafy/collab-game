@@ -5,7 +5,7 @@
 	"main": "root/index.html",
 	"type": "module",
 	"scripts": {
-		"compile": "rm -drf root/js/ ; tsc ; npx prettier -w . ;",
+		"compile": "rm -drf root/js/ ; npx tsc ; npx prettier -w . ;",
 		"format": "npx prettier -w . ;",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -24,6 +24,7 @@
 		"prettier": "^2.8.3"
 	},
 	"dependencies": {
-		"@discordjs/collection": "^1.3.0"
+		"@discordjs/collection": "^1.3.0",
+		"typescript": "^4.9.5"
 	}
 }

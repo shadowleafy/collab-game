@@ -1,6 +1,5 @@
 'use strict';
 import BaseActor from './BaseActor.js';
-import './Vec.js';
 /** Class representing a player */
 export class Player extends BaseActor {
 	/**
@@ -8,8 +7,8 @@ export class Player extends BaseActor {
 	 * @param {Element} dom - The DOM node representing the player
 	 * @param {Vec} location - A Vec representing the player's location
 	 */
-	constructor(dom, location) {
-		super(dom, location);
+	constructor(dom, location, level) {
+		super(dom, location, level);
 	}
 }
 export default Player;

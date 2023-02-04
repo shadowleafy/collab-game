@@ -1,6 +1,4 @@
 'use strict';
-import './ActorManager.js';
-import './Player.js';
 /** Class representing a level */
 export class Level {
 	dom;

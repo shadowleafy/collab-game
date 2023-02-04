@@ -8,11 +8,7 @@
 		"esModuleInterop": true,
 		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,
-		"importsNotUsedAsValues": "preserve",
-		"lib": [
-			"DOM",
-			"ESNext"
-		],
+		"lib": ["DOM", "ESNext"],
 		"module": "ESNext",
 		"moduleResolution": "nodenext",
 		"newLine": "lf",
@@ -26,13 +22,8 @@
 		"resolveJsonModule": false,
 		"rootDir": "./src",
 		"strict": true,
-		"target": "ESNext",
+		"target": "ESNext"
 	},
-	"exclude": [
-		"docs/**/*",
-		"./node_modules/**/*"
-	],
-	"include": [
-		"./src/**/*"
-	]
+	"exclude": ["docs/**/*", "./node_modules/**/*"],
+	"include": ["./src/**/*"]
 }

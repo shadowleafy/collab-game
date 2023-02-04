@@ -1,4 +1,3 @@
-'use strict';
 /** Class representing a point on a grid, counting from the top left */
 export class Vec {
 	x;

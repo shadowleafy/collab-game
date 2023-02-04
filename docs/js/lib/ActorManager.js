@@ -1,9 +1,7 @@
 'use strict';
-import './BaseActor.js';
 import { Collection } from '@discordjs/collection';
 /** Class to manage BaseActors */
 export class ActorManager extends Collection {
-	entries;
 	/**
 	 * Create a new BaseActorManager
 	 * @param {Iterable<readonly [number, BaseActor]>} entries - A list of starting entries
@@ -20,7 +18,7 @@ export class ActorManager extends Collection {
 	}
 	update() {
 		const promises = [];
-		this.forEach((actor, id) => promises.push(actor.update()));
+		this.forEach((actor) => promises.push(actor.update()));
 		return Promise.all(promises);
 	}
 }
